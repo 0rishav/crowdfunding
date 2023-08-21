@@ -1,0 +1,342 @@
+.give {
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 2rem 0rem;
+}
+
+.background-give {
+  height: 100%;
+  width: 100%;
+  background-image: url(http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/image-03.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.give-left-content {
+  height: auto;
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.give-left-content h1 {
+  font-size: 70px;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.give-left-content h2 {
+  font-size: 15px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.give-left-content p {
+  font-size: 14px;
+  padding: 1rem 2rem;
+  color: white;
+  line-height: 25px;
+  font-weight: 500;
+}
+.give-icon {
+  height: auto;
+  width: 80%;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.give-btn {
+  width: 60%;
+  height: auto;
+  margin: 2rem 0rem;
+}
+
+.give-btn button {
+  padding: 8px 20px;
+  background-color: #efc94c;
+  margin-left: 1.5rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.give-right-support-us {
+  height: auto;
+  width: 40%;
+  background-color: black;
+  opacity: 0.8;
+  padding: 3rem 0rem;
+}
+
+.give-right-support-content {
+  align-items: center;
+  padding: 0rem 1.5rem;
+  justify-content: center;
+}
+
+.give-right-support-content h1 {
+  font-size: 26px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 0;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.give-right-support-content p {
+  font-size: 16px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+.give-left-input {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.give-left-input input {
+  outline: none;
+  border: 1px solid black;
+  width: 80%;
+  height: 44px;
+}
+
+.give-left-input h4 {
+  background-color: #00baa3;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  color: white;
+  font-weight: 800;
+}
+
+.give-right-btn {
+  gap: 20px;
+
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.give-right-btn button {
+  color: white;
+  background-color: #00baa3;
+  padding: 4px 10px;
+}
+
+.give-btn-two {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  height: 3vw;
+  width: 80%;
+
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.give-btn-two button {
+  background-color: #00baa3;
+  height: 3vw;
+  width: 80%;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1080px) {
+  .give {
+    width: 100%;
+    height: auto;
+  }
+  .background-give {
+    flex-direction: column;
+  }
+  .give-left-content {
+    width: 90%;
+    height: auto;
+    margin-top: 6rem;
+  }
+  .give-right-support-us {
+    width: 90%;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .give-right-btn {
+    width: 90%;
+    height: auto;
+  }
+  .give-btn-two {
+    width: 90%;
+    height: 10vw;
+  }
+  .give-btn-two button {
+    width: 90%;
+    height: 8vw;
+  }
+  .give-right-btn {
+    width: 90%;
+    height: auto;
+  }
+  .give-btn button {
+    margin-bottom: 10px;
+  }
+  .give-left-input input {
+    width: 80%;
+    height: 44px;
+  }
+}
+
+
+.give-order h2{
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: rgb(109, 95, 95);
+    text-transform: uppercase;
+}
+
+.give-order h1{
+    text-align: center;
+    margin: 1rem 0rem;
+    font-size: 42px;
+    letter-spacing: 2px;
+    font-weight: 800;
+    color: rgb(85, 85, 85);
+    text-transform: uppercase;
+}
+
+.main-give-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+.give-card{
+    border: 1px solid rgb(216, 206, 206);
+    width: 30%;
+    height: auto;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+.give-card img{
+    width: 100%;
+    height: 45%;
+}
+
+.give-card h4{
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(61, 59, 59);
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.give-card p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(131, 128, 128);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    line-height: 22px;
+}
+
+.give-card h6{
+    margin-left: 1rem;
+    color: black;
+    font-size: 17px;
+}
+
+.last-give-card{
+    margin-top: 1rem;
+    width: 100%;
+    height: 18vh;
+    background-color: rgb(233, 225, 225);
+}
+
+.give-color{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.give-green{
+   
+    width: 30%;
+    height: 6px;
+    margin-top: 1rem;
+    background-color:#00baa3;
+}
+
+.give-white{
+   
+    width: 60%;
+    margin-top: 1rem;
+    height: 6px;
+    background-color: #fff;
+}
+
+.give-order-price{
+    display: flex;
+    justify-content: space-between;
+    padding:0rem 1rem;
+    margin-top: 1rem;
+}
+
+.give-calculation{
+    width: 30%;
+    height: 5vw;
+   
+}
+
+.give-calculation h6{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.give-calculation h3{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+@media (max-width:830px){
+    .give-card{
+        width: 45%;
+        height: auto;
+    }
+}
+
+@media (max-width:530px){
+    .give-card{
+        width: 90%;
+        height: auto;
+    }
+}

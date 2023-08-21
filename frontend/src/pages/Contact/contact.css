@@ -1,0 +1,186 @@
+.first-divs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 4rem 0rem;
+}
+
+.div-contents{
+    width: 35%;
+    height: 15vw;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid rgb(238, 231, 231);
+    position: relative;
+    margin-top: 4rem;
+}
+
+.div-contents img{
+    position:absolute;
+    height: 55%;
+    width: 25%;
+    border-radius: 140px;
+   right: 90%;
+   top: 15%;
+}
+
+.div-contents h1{
+    font-size: 24px;
+    padding: 0rem 5rem;
+    margin: 1rem 0rem;
+    font-weight: 700;
+    color: #2d3238;
+}
+
+.div-contents p{
+    padding: 0rem 5rem;
+    color: #2d3238;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.contact-us-content{
+    width: 30%;
+    height:30vw;
+    
+}
+
+.contact-us{
+    display: flex;
+    gap: 30px;
+    padding: 3rem 0rem;
+    justify-content: center;
+}
+
+.contact-us-content h2{
+    font-size: 44px;
+    font-weight: 700;
+    color: #2d3238;
+    text-transform: uppercase;
+    padding: 2rem 1rem;
+}
+
+.contact-us-content h5{
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 0rem 1rem;
+    color: #2d3238;
+}
+
+.contact-us-form{
+    width: 50%;
+    height:40vw;
+    justify-content: center;
+    flex-direction: column;
+    display:flex;
+}
+
+.input-with-cursor{
+    padding-left: 1rem;
+   
+}
+
+.contact-us-content button{
+    padding: 0.5rem 1.5rem;
+    background-color: #fcb900;
+    margin: 2rem 1rem;
+    border-radius: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.contact-us-form input{
+    border: 1px solid black;
+    width: 90%;
+    height: 10%;
+    margin: 1rem 1rem;
+    outline: none;
+}
+
+.contact-us-form textarea{
+    border: 1px solid black;
+    width: 90%;
+    height: 40%;
+    margin: 1rem 1rem;
+    outline: none;
+}
+
+.contact-us-form button{
+    width: 90%;
+    height: 8%;
+    background-color:#00baa3;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 20px;
+    margin: 1rem 1rem;
+}
+
+@media (max-width:960px){
+    .first-divs{
+        flex-direction: column;
+    }
+    .div-contents{
+        width: 80%;
+        height: auto;
+        padding: 1rem 0rem;
+    }
+    .div-contents img {
+        position: static;
+        width: 50%; 
+        margin: 0 auto; 
+        border-radius: 140px;
+      }
+      .div-contents h1{
+        text-align: center;
+        align-items: center;
+      }
+      .div-contents p{
+        text-align: center;
+        align-items: center;
+      }
+      .contact-us{
+        flex-direction: column;
+      }
+      .contact-us-content{
+        width: 90%;
+        height: auto;
+      }
+      .contact-us-form{
+        width: 90%;
+        margin-left: 3rem;
+       
+        height: auto;
+      }
+      .contact-us-content h2{
+        text-align: center;
+        align-items: center;
+      }
+      .contact-us-content h5{
+        text-align: center;
+        align-items: center;
+      }
+      .contact-us-content button{
+        align-items: center;
+        justify-content: center;
+      }
+      .contact-us-form input{
+        height: 40px;
+        margin-left: 1rem;
+      }
+      .contact-us-form button{
+        height: 40px;
+      }
+    }
+
+    @media (max-width:550px){
+      .contact-us-form{
+       
+        margin-left: 1rem;
+       
+       
+      }
+    }
