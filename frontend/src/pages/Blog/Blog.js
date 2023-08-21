@@ -10,7 +10,7 @@ const Blog = () => {
         <div className="background-blog-image">
           <div className="blog-text">
             <img
-              src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-08.png"
+              src={process.env.PUBLIC_URL + '/images/logo-10.png'}
               alt=""
             />
             <h1>stay informed about your latest news.</h1>
@@ -83,7 +83,7 @@ const Blog = () => {
           <div className="content-blog-details">
             <div className="blog-details-img">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/09/post-04-150x150.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-18.jpg'}
                 alt=""
               />
             </div>
@@ -95,7 +95,7 @@ const Blog = () => {
           <div className="content-blog-details">
             <div className="blog-details-img">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/09/post-04-150x150.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-18.jpg'}
                 alt=""
               />
             </div>
@@ -107,7 +107,7 @@ const Blog = () => {
           <div className="content-blog-details">
             <div className="blog-details-img">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/09/post-04-150x150.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-18.jpg'}
                 alt=""
               />
             </div>
@@ -119,7 +119,7 @@ const Blog = () => {
           <div className="content-blog-details">
             <div className="blog-details-img">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/09/post-04-150x150.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-18.jpg'}
                 alt=""
               />
             </div>
@@ -156,10 +156,10 @@ const Blog = () => {
       </div>
       <div className="last-content">
         <div className="last-image-content">
-          <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/image-03.jpg" alt="" />
+          <img src={process.env.PUBLIC_URL + '/images/women-6.jpg'} alt="" />
         </div>
         <div className="last-image-content">
-          <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/image-03.jpg" alt="" />
+          <img src={process.env.PUBLIC_URL + '/images/women-6.jpg'} alt="" />
         </div>
       </div>
     </div>

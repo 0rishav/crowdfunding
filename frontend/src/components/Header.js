@@ -93,14 +93,14 @@ const closeNav = () => {
         <GiHamburgerMenu className="sidebar_icon-2" onClick={toggleNav} />
           <div className="logoes">
            <img
-              src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/logo-white.png"
+              src={process.env.PUBLIC_URL + '/images/logo-white.png'}
               alt=""
             />
           </div>
           <div className={`nav-links ${navOpen ? "open" : ""}`}>
             <div className="sidebar_logo">
               
-              <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/logo-white.png" className="image_name" alt="" />
+              <img src={process.env.PUBLIC_URL + '/images/logo-white.png'} className="image_name" alt="" />
               <RxCross2 className="sidebar_icon-1"  onClick={closeNav}/>
             </div>
            

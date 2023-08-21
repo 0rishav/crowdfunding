@@ -7,7 +7,7 @@ const Contact = () => {
         <div className="first-divs">
           <div className="div-contents">
             <img
-              src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-01.jpg"
+              src={process.env.PUBLIC_URL + '/images/women-7.jpg'}
               alt=""
             />
             <h1>Close to the Client</h1>
@@ -15,7 +15,7 @@ const Contact = () => {
           </div>
           <div className="div-contents">
           <img
-              src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-02.jpg"
+              src={process.env.PUBLIC_URL + '/images/women-8.jpg'}
               alt=""
             />
             <h1>Attention to detail</h1>

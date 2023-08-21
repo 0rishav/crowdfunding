@@ -63,7 +63,7 @@ const Give = () => {
           <div className="main-give-card">
             <div className="give-card">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2020/06/give-6-300x189.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-12.jpg'}
                 alt=""
               />
               <h4>Child Support</h4>
@@ -92,7 +92,7 @@ const Give = () => {
             </div>
             <div className="give-card">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2020/06/give-5-300x189.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-13.jpg'}
                 alt=""
               />
               <h4>Education</h4>
@@ -121,7 +121,7 @@ const Give = () => {
             </div>
             <div className="give-card">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2020/06/give-4-300x189.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-14.jpg'}
                 alt=""
               />
               <h4>Open Canteens</h4>
@@ -150,7 +150,7 @@ const Give = () => {
             </div>
             <div className="give-card">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2020/06/give-3-300x189.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-15.jpg'}
                 alt=""
               />
               <h4>Adoptions</h4>
@@ -179,7 +179,7 @@ const Give = () => {
             </div>
             <div className="give-card">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2020/06/give-2-300x189.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-16.jpg'}
                 alt=""
               />
               <h4>New Wells</h4>
@@ -208,7 +208,7 @@ const Give = () => {
             </div>
             <div className="give-card">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2020/06/give-1-300x189.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-17.jpg'}
                 alt=""
               />
               <h4>Free Water</h4>

@@ -34,7 +34,7 @@ const Features = () => {
 
         <div className='third-features'>
             <div className='child-image'>
-                <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/cause-1.jpg" alt="" />
+                <img src={process.env.PUBLIC_URL + '/images/child-11.jpg'} alt="" />
             </div>
             <div className='child-content'>
                 <h3>"</h3>

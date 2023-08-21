@@ -22,37 +22,37 @@ const Shop = () => {
         <h1>Dialy Promotions</h1>
         <div className="shopping-details">
           <div className="shopping-content">
-            <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/shop-6.jpg" alt="" />
+            <img src={process.env.PUBLIC_URL + '/images/child-5.jpg'} alt="" />
             <h2>Child Protection</h2>
             <h3>$ 22</h3>
             <button>Read more</button>
           </div>
           <div className="shopping-content">
-          <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/shop-1.jpg" alt="" />
+          <img src={process.env.PUBLIC_URL + '/images/child-6.jpg'} alt="" />
             <h2>Orca Project</h2>
             <h3>$ 15.50</h3>
             <button>Read more</button>
           </div>
           <div className="shopping-content">
-          <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/shop-2.jpg" alt="" />
+          <img src={process.env.PUBLIC_URL + '/images/child-7.jpg'} alt="" />
             <h2>Paws Partner</h2>
             <h3>$ 22.50</h3>
             <button>Read more</button>
           </div>
           <div className="shopping-content">
-            <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/shop-8.jpg" alt="" />
+            <img src={process.env.PUBLIC_URL + '/images/child-8.jpg'} alt="" />
             <h2>Predator Defense</h2>
             <h3>$ 19.70</h3>
             <button>Read more</button>
           </div>
           <div className="shopping-content">
-            <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/shop-4.jpg" alt="" />
+            <img src={process.env.PUBLIC_URL + '/images/child-9.jpg'} alt="" />
             <h2>The Wolves</h2>
             <h3>$ 13.40</h3>
             <button>Read more</button>
           </div>
           <div className="shopping-content">
-            <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/shop-3.jpg" alt="" />
+            <img src={process.env.PUBLIC_URL + '/images/child-10.jpg'} alt="" />
             <h2>Rehabilitation</h2>
             <h3>$ 10.90</h3>
             <button>Read more</button>

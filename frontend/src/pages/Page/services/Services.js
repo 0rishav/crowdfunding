@@ -11,7 +11,7 @@ const Services = () => {
         <div className="right-service-box">
           <div className="service-img">
             <img
-              src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-09.jpg"
+              src={process.env.PUBLIC_URL + '/images/women-5.jpg'}
               alt=""
             />
             <div className="service-head">
@@ -21,7 +21,7 @@ const Services = () => {
           </div>
           <div className="service-img">
             <img
-              src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-10.jpg"
+              src={process.env.PUBLIC_URL + '/images/child-4.jpg'}
               alt=""
             />
             <div className="service-head">
@@ -35,7 +35,7 @@ const Services = () => {
       <div className="service-second">
         <div className="service-card-detail">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-05.png"
+            src={process.env.PUBLIC_URL + '/images/logo-9.png'}
             alt=""
           />
           <div className="service-card-para">
@@ -48,7 +48,7 @@ const Services = () => {
         </div>
         <div className="service-card-detail">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-05.png"
+            src={process.env.PUBLIC_URL + '/images/logo-9.png'}
             alt=""
           />
           <div className="service-card-para">
@@ -61,7 +61,7 @@ const Services = () => {
         </div>
         <div className="service-card-detail">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-05.png"
+            src={process.env.PUBLIC_URL + '/images/logo-9.png'}
             alt=""
           />
           <div className="service-card-para">
@@ -74,7 +74,7 @@ const Services = () => {
         </div>
         <div className="service-card-detail">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-05.png"
+            src={process.env.PUBLIC_URL + '/images/logo-9.png'}
             alt=""
           />
           <div className="service-card-para">
@@ -93,49 +93,49 @@ const Services = () => {
       <div className="service-second">
         <div className="card-service">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-06.jpg"
+            src={process.env.PUBLIC_URL + '/images/child-11.jpg'}
             alt=""
           />
         </div>
         <div className="card-service">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-09.jpg"
+            src={process.env.PUBLIC_URL + '/images/child-12.jpg'}
             alt=""
           />
         </div>
         <div className="card-service">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-08.jpg"
+            src={process.env.PUBLIC_URL + '/images/child-13.jpg'}
             alt=""
           />
         </div>
         <div className="card-service">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-07.jpg"
+            src={process.env.PUBLIC_URL + '/images/child-14.jpg'}
             alt=""
           />
         </div>
         <div className="card-service">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-10.jpg"
+            src={process.env.PUBLIC_URL + '/images/child-15.jpg'}
             alt=""
           />
         </div>
         <div className="card-service">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-05.jpg"
+            src={process.env.PUBLIC_URL + '/images/child-16.jpg'}
             alt=""
           />
         </div>
         <div className="card-service">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-15.jpg"
+            src={process.env.PUBLIC_URL + '/images/child-17.jpg'}
             alt=""
           />
         </div>
         <div className="card-service">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-16.jpg"
+            src={process.env.PUBLIC_URL + '/images/child-4.jpg'}
             alt=""
           />
         </div>
@@ -153,7 +153,7 @@ const Services = () => {
         </div>
         <div className="right-fourth-service">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-17.jpg"
+            src={process.env.PUBLIC_URL + '/images/child-13.jpg'}
             alt=""
           />
         </div>
@@ -161,21 +161,21 @@ const Services = () => {
 
       <div className="second-last-service">
         <div className="service-creation">
-            <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-05.png" alt="" />
+            <img src={process.env.PUBLIC_URL + '/images/logo-9.png'} alt="" />
             <div className="service-creation-heading">
                 <h1>Creation</h1>
                 <p>Proin at varius arcu. Sed posuere orci bibendum pharetra dapibus.</p>
             </div>
         </div>
         <div className="service-creation">
-        <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-04.png" alt="" />
+        <img src={process.env.PUBLIC_URL + '/images/logo-7.png'} alt="" />
             <div className="service-creation-heading">
                 <h1>Analyses</h1>
                 <p>Proin at varius arcu. Sed posuere orci bibendum pharetra dapibus.</p>
             </div>
         </div>
         <div className="service-creation">
-        <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-05.png" alt="" />
+        <img src={process.env.PUBLIC_URL + '/images/logo-8.png'} alt="" />
             <div className="service-creation-heading">
                 <h1>Marketing</h1>
                 <p>Proin at varius arcu. Sed posuere orci bibendum pharetra dapibus.</p>

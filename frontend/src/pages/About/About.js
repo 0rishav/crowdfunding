@@ -9,7 +9,7 @@ const About = () => {
       <div className="about-us">
         <div className="about-us-content">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/image-03.jpg"
+            src={process.env.PUBLIC_URL + '/images/women-6.jpg'}
             alt=""
           />
         </div>
@@ -71,7 +71,7 @@ const About = () => {
       <div className="about-us-promotion">
         <div className="promotion-details-one">
           <img
-            src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/image-03.jpg"
+            src={process.env.PUBLIC_URL + '/images/women-6.jpg'}
             alt=""
           />
           <h5>price plans</h5>
@@ -86,7 +86,7 @@ const About = () => {
           <div className="promotion">
             <div className="img-promotion">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-03.png"
+                src={process.env.PUBLIC_URL + '/images/logo-6.png'}
                 alt=""
               />
             </div>
@@ -101,7 +101,7 @@ const About = () => {
           <div className="promotion">
             <div className="img-promotion">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-04.png"
+                src={process.env.PUBLIC_URL + '/images/logo-7.png'}
                 alt=""
               />
             </div>
@@ -116,7 +116,7 @@ const About = () => {
           <div className="promotion">
             <div className="img-promotion">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-06.png"
+                src={process.env.PUBLIC_URL + '/images/logo-8.png'}
                 alt=""
               />
             </div>
@@ -131,7 +131,7 @@ const About = () => {
           <div className="promotion">
             <div className="img-promotion">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-05.png"
+                src={process.env.PUBLIC_URL + '/images/logo-9.png'}
                 alt=""
               />
             </div>
@@ -158,7 +158,7 @@ const About = () => {
               tortor commodo, elementum justo ut, dignissi.
             </p>
             <img
-              src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-01.jpg"
+              src={process.env.PUBLIC_URL + '/images/women-7.jpg'}
               alt=""
             />
             <h3>Emily Allen</h3>
@@ -177,7 +177,7 @@ const About = () => {
           <div className="summer-promotion-content">
             <div className="promotion-content">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-05.jpg"
+                src={process.env.PUBLIC_URL + '/images/women-7.jpg'}
                 alt=""
               />
 
@@ -195,7 +195,7 @@ const About = () => {
             </div>
             <div className="promotion-content">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-06.jpg"
+                src={process.env.PUBLIC_URL + '/images/child-4.jpg'}
                 alt=""
               />
 
@@ -213,7 +213,7 @@ const About = () => {
             </div>
             <div className="promotion-content">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-07.jpg"
+                src={process.env.PUBLIC_URL + '/images/women-3.jpg'}
                 alt=""
               />
 
@@ -233,7 +233,7 @@ const About = () => {
           <div className="summer-promotion-content">
             <div className="promotion-content">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-08.jpg"
+                src={process.env.PUBLIC_URL + '/images/women.jpg'}
                 alt=""
               />
 
@@ -251,7 +251,7 @@ const About = () => {
             </div>
             <div className="promotion-content">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-09.jpg"
+                src={process.env.PUBLIC_URL + '/images/women-3.jpg'}
                 alt=""
               />
 
@@ -269,7 +269,7 @@ const About = () => {
             </div>
             <div className="promotion-content">
               <img
-                src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/square-10.jpg"
+                src={process.env.PUBLIC_URL + '/images/women.jpg'}
                 alt=""
               />
 
@@ -294,7 +294,7 @@ const About = () => {
       <div className="customer">
         <div className="background-customer">
           <div className="customer-details">
-            <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/icon-07.png" alt="" />
+            <img src={process.env.PUBLIC_URL + '/images/child-16.jpg'} alt="" />
             <div className="customer-heading">
               <h2>Our Commitment is a Satisfied Customer</h2>
               <p>Lorem ipsum dolor sit amet, tempus iaculis duis pretium​ Lorem ipsum dolor sit amet, tempus iaculis</p>
