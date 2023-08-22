@@ -134,7 +134,7 @@ const Blog = () => {
       <div className="foundation">
         <div className="background-page">
           <div className="foundation-detail">
-            <div className="foundation-heading">
+            {/* <div className="foundation-heading">
               <p>
                 13 <span></span>
               </p>
@@ -143,7 +143,7 @@ const Blog = () => {
               <p>
                 13 <span></span>
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

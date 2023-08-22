@@ -45,10 +45,10 @@ const Features = () => {
 
         <div className='small-header'>
             <ul className='header-link'>
-                <li><Link>Description</Link></li>
+                {/* <li><Link>Description</Link></li>
                 <li><Link>Documents</Link></li>
                 <li><Link>Maps</Link></li>
-                <li><Link>Donation</Link></li>
+                <li><Link>Donation</Link></li> */}
             </ul>
         </div>
     </div>

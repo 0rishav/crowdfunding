@@ -22,7 +22,7 @@ const Contact = () => {
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo eius voluptates explicabo eaque,  pulvinar dapibus leo.</p>
           </div>
         </div>
-        <div className="contact-us">
+        <div className="contact-us"> 
           <div className="contact-us-content">
               <h2>get in touch</h2>
               <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, consequatur. Molestiae, esse possimus. Nisi placeat non iste fugit iusto! Ex?</h5>

@@ -13,7 +13,7 @@
 }
 
 #feature-goal{
-    height: 35vh;
+    height: 50vh;
     width: 100%;
     background-color: #5c5c5c;
     display: flex;
@@ -42,14 +42,14 @@
 }
 
 .goal-cause h1{
-    font-size: 15px;
+    font-size: 10px;
     text-transform: uppercase;
     color: white;
     padding: 1.5rem 0rem;
 }
 
 .goal-cause span{
-    font-size: 15px;
+    font-size: 10px;
     text-decoration: underline;
 }
 
@@ -64,14 +64,14 @@
 }
 
 .achieved h1{
-    font-size: 15px;
+    font-size: 10px;
     text-transform: uppercase;
     color: white;
     padding: 1.5rem 0rem;
 }
 
 .achieved span{
-    font-size: 15px;
+    font-size: 10px;
     text-decoration: underline;
 }
 
@@ -172,7 +172,7 @@
 @media (max-width:800px){
 
     #feature-goal{
-        height: 60vh;
+        height: 80vh;
     }
     .goal-cause{
         width: 40%;

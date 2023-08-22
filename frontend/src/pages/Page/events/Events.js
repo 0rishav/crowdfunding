@@ -139,7 +139,7 @@ const Events = () => {
           {/* button  */}
           <div className="pagination">
                 <button>previous events</button>
-                <button>next events</button>
+                <button style={{padding:"8px 40px"}}>next events</button>
             </div>
         </div>
 
