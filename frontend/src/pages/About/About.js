@@ -307,7 +307,7 @@ const About = () => {
       {/* 7th section  */}
       <div className="about-us-boxes">
         <div className="about-us-map">
-          <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/image-03.jpg" alt="" />
+          <img src={process.env.PUBLIC_URL + '/images/women-5.jpg'} alt="" />
         </div>
         <div className="about-us-map">
           {/* <iframe src="https://www.google.com/maps/@24.7980345,85.0048291,17z/data=!4m2!7m1!2e1?entry=ttu" frameborder="0"></iframe> */}
