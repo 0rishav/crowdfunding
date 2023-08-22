@@ -210,7 +210,7 @@ const Home = () => {
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.Minima
                 ullam excepturi sjlaborum, recusandae culpa magni voluptatem
                 quia facilis quod, blanditiis commodi sequi assumenda.
-              </p>
+               </p>
             </div>
             <div className="icons">
               <RiVisaLine style={{ fontSize: "40px" }} />
@@ -233,57 +233,27 @@ const Home = () => {
             </div>
             <div className="btn">
               <button
-                style={{
-                  height: "35px",
-                  width: "55px",
-                  backgroundColor: "#00baa3",
-                  color: "white",
-                  fontWeight: "700",
-                }}
+            
               >
                 $50
               </button>
               <button
-                style={{
-                  backgroundColor: "#00baa3",
-                  height: "35px",
-                  width: "80px",
-                  color: "white",
-                  fontWeight: "700",
-                }}
+                
               >
                 $100.00
               </button>
               <button
-                style={{
-                  backgroundColor: "#00baa3",
-                  height: "35px",
-                  width: "80px",
-                  color: "white",
-                  fontWeight: "700",
-                }}
+                
               >
                 $150.00
               </button>
               <button
-                style={{
-                  backgroundColor: "#00baa3",
-                  height: "35px",
-                  width: "80px",
-                  color: "white",
-                  fontWeight: "700",
-                }}
+                
               >
                 $200.00
               </button>
               <button
-                style={{
-                  backgroundColor: "#00baa3",
-                  height: "35px",
-                  width: "80px",
-                  color: "white",
-                  fontWeight: "700",
-                }}
+               
               >
                 custom
               </button>
@@ -455,7 +425,7 @@ const Home = () => {
               alt=""
             />
             <div className="product-heading">
-              <h2 style={{ left: "25%" }}>Child Protection</h2>
+              <h2 >Child Protection</h2>
             </div>
             <div className="prod-btn">
               <button style={{ backgroundColor: "#00baa3" }}>$ 13.40</button>

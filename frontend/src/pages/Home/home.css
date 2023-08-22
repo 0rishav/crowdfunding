@@ -536,8 +536,8 @@
 
 .icons{
   display: flex;
-  gap: 40px;
-  /* padding: 0rem 6rem; */
+  gap: 20px;
+ 
   align-items:center;
   justify-content: center;
   margin-top: 1rem;
@@ -581,19 +581,20 @@
   margin-top: 1rem;
 }
 
-.left-input{
+.left-input {
   display: flex;
   margin-top: 2rem;
   align-items: center;
   justify-content: center;
 }
 
-.left-input input{
+.left-input input {
   outline: none;
   border: 1px solid black;
-  width: 330px;
+  width: 80%;
   height: 44px;
 }
+
 
 .left-input h4{
   background-color: #00baa3;
@@ -603,11 +604,22 @@
   font-weight:800;
 }
 
-.btn{
-  gap: 2px;
+.btn {
+  gap: 20px;
+  width: 90%;
+  height: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: auto;
   margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.btn button {
+  color: white;
+  background-color: #00baa3;
+  padding: 4px 10px;
 }
 
 .btn-two{
@@ -692,6 +704,16 @@
   .right-adoption {
     max-width: 100%; 
     height: auto;
+    padding-bottom: 20px;
+  }
+
+  .give-right-btn {
+    width: 90%;
+    height: auto;
+  }
+  .left-input input {
+    width: 80%;
+    height: 44px;
   }
   
 }
@@ -700,10 +722,7 @@
   .btn-two button{
     padding: 0.5rem 4rem;
   }
-  .btn{
-    width: 40px;
-    margin-left: 8.5rem;
-  }
+  
   .right-adoption h1{
     font-size: 30px;
   }
@@ -716,14 +735,12 @@
   .color .white{
     width: 100px;
   }
-}
-
-@media (max-width:360px){
-  .btn{
-    margin-left: 7.8rem;
-    width: 30px;
+  .iamge img{
+    width: 250px;
   }
 }
+
+
 
 /* 6th section  */
 
@@ -746,6 +763,9 @@
     flex-direction: column;
   
   }
+  .main-logo img{
+    width: 30vw;
+  }
 }
 
 @media (max-width:900px){
@@ -762,21 +782,28 @@
   align-items: center;
   justify-content: center;
   gap: 30px;
-  padding: 4rem 0rem;
+  padding: 1rem 0rem;
   flex-wrap: wrap;
 }
 .slider{
   height: 20vw;
   width: 20vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width:900px){
   .courossel-slider{
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .slider{
-    height: 30vw;
-    width: 30vw;
+    height: 60vw;
+    width: 60vw;
+    
   }
 }
 
@@ -808,6 +835,10 @@
   height: 30vw;
   width: 25vw;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .product-detail img{
@@ -826,10 +857,18 @@
   border-radius: 10px;
 }
 
+.product-heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .product-heading h2{
   position: absolute;
   top: 90%;
-  left: 30%;
+  right: 10%;
   font-size: 20px;
   font-weight: 800;
   color: rgb(170, 16, 16);
@@ -839,6 +878,7 @@
 .products-page{
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 30px;
   margin: 2rem;

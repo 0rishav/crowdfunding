@@ -29,7 +29,7 @@ nav .navbar .nav-links .links {
 }
 
 nav .navbar .nav-links {
-  /* background-color: red; */
+ 
   height: 100%;
   line-height: 70px;
 }
@@ -44,7 +44,6 @@ nav .navbar .nav-links .links li {
 
 nav .navbar .nav-links .links li a {
   color: white;
-  /* background-color: red; */
   height: 100%;
   white-space: nowrap;
 }
@@ -159,10 +158,9 @@ nav .navbar .nav-links .links li a {
   }
 
   .navbar .sidebar_icon-2 {
-    font-size: 30px;
+    font-size: 50px;
     color: white;
     font-weight: 800;
-    /* padding: 0rem 0rem; */
     margin-right: 40px;
   }
 
@@ -180,15 +178,23 @@ nav .navbar .nav-links .links li a {
     display: block;
   }
   .navbar .nav-links .links .cause-sub-menu {
-    display: block;
+    display: none;
     position: relative;
     top: 0;
     left: 0;
     box-shadow: none;
   }
 
-  .navbar .nav-links .links .page-sub-menu {
+  .navbar .nav-links .links .cause-sub-menu .open {
     display: block;
+  }
+
+  .navbar .nav-links .links .page-sub-menu .open {
+    display: block;
+  }
+
+  .navbar .nav-links .links .page-sub-menu {
+    display: none;
     position: relative;
     top: 0;
     left: 0;
@@ -197,7 +203,7 @@ nav .navbar .nav-links .links li a {
 }
 
 
-
+/* FOOTER SECTION STYLE  */
 
 
 

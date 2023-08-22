@@ -6,8 +6,14 @@ import { BiUserCircle } from "react-icons/bi";
 import {motion} from "framer-motion"
 
 const Header = () => {
- 
+  
+  const [isSubMenu, setIsSubMenu] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
+
+  const subMenuToggle = (event) => {
+    event.stopPropagation();
+      setIsSubMenu(!isSubMenu);
+  }
 
   const toggleNav = () => {
     console.log("click")
@@ -15,79 +21,11 @@ const Header = () => {
 }  
 
 const closeNav = () => {
-  setNavOpen(false); // Close the navigation menu
+  setNavOpen(false); 
 }
   return (
     <>
-      {/* <nav>
-        <div className="logo">
-            <img src="http://www.nicdarkthemes.com/themes/charity-foundation/wp/demo/charity-foundation/wp-content/uploads/sites/2/2022/10/logo-white.png" alt="charity" />
-        </div>
-        <div>
-          <ul id="navbar" className={open ? "show":""}>
-            <li>
-              <Link>Home</Link>
-            </li>
-            <li>
-              <Link>Causes</Link>
-            </li>
-           <li className={`dropdown ${open ? "open" : ""}`}>
-              <div className="dropdown-toggle" onClick={toggleMenu}>
-                Causes
-              </div>
-              <ul className="dropdown-menu">
-              <li>
-                  <Link to="/cause">Causes</Link>
-                </li>
-                <li>
-                  <Link to="/cause1">Features</Link>
-                </li>
-               
-                <li>
-                  <Link to="/cause2">Documents</Link>
-                </li>
-                <li>
-                  <Link to="/cause2">Donors</Link>
-                </li>
-                <li>
-                  <Link to="/cause2">Comments</Link>
-                </li>
-                <li>
-                  <Link to="/cause2">maps</Link>
-                </li>
-                
-                Add more cause links as needed
-              </ul> 
-            </li>
-            <li>
-              <Link>Give</Link>
-            </li>
-            <li>
-              <Link to={"/about"}>About</Link>
-            </li>
-            <li>
-              <Link>Pages</Link>
-            </li>
-            <li>
-              <Link to={"/shop"}>Shop</Link>
-            </li>
-            <li>
-              <Link to={"/blog"}>Blog</Link>
-            </li>
-            <li>
-              <Link to={"/contact"}>Contact</Link>
-            </li>
-            <li>
-              <Link to={"/signup"}><BiUserCircle style={{fontSize:"30px"}}/></Link>
-            </li>
-            <button>Donate Now</button>
-          </ul>
-    </div>
-    <div id="mobile" onClick={toggleMenu}>
-       {open ? <RxCross2 className="icons"/>:<GiHamburgerMenu className="icons"/>}
-        
-    </div>
-      </nav>  */}
+      
       <motion.nav initial={{y:-100}} animate={{y:0}} exit={{y:-100}} transition={{ duration: 1, ease: 'easeOut' }}>
         <div className="navbar">
         <GiHamburgerMenu className="sidebar_icon-2" onClick={toggleNav} />
@@ -109,8 +47,8 @@ const closeNav = () => {
                 <Link to={"/"}>HOME</Link>
               </li>
               <li>
-                <Link to={"#"}>CAUSES</Link>
-                <ul className="cause-sub-menu">
+                <Link to={"#"} onClick={subMenuToggle}>CAUSES</Link>
+                <ul className={`cause-sub-menu ${isSubMenu ? 'open' : ' '}`}>
                   
                   <li>
                     <Link to={"/cause/features"}>Features</Link>
@@ -141,7 +79,7 @@ const closeNav = () => {
               </li>
               <li>
                 <Link to={"#"}>PAGES</Link>
-                <ul className="page-sub-menu">
+                <ul className={`page-sub-menu ${isSubMenu ? 'open' : ' '}`}>
                   <li>
                     <Link to={"/pages/events"}>Events</Link>
                   </li>
