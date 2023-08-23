@@ -17,6 +17,7 @@ import Price from "./pages/Page/price/Price";
 import Features from "./pages/causes/featured/Features";
 import Services from "./pages/Page/services/Services";
 import BlogDetails from "./pages/Blog/BlogDetails";
+import EventDetail from "./pages/Page/events/EventDetail";
 
 const App = () => {
   return (
@@ -39,6 +40,7 @@ const App = () => {
             <Route path="/pages/services" element={<Services />} />
             <Route path="/cause/features" element={<Features />} />
             <Route path="/blog/detail-page" element={<BlogDetails />} />
+            <Route path="/events/grammar-books" element={<EventDetail />} />
           </Route>
         </Routes>
       </BrowserRouter>

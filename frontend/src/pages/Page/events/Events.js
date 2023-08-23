@@ -1,5 +1,6 @@
 import React from "react";
 import "./events.css";
+import {Link} from "react-router-dom"
 
 const Events = () => {
   return (
@@ -19,7 +20,7 @@ const Events = () => {
             </div>
             <div className="event-box-2">
               <h4>MAY 14, 2030 @ 8:00 AM - 5:00 PM</h4>
-              <h2>Grammar Books</h2>
+             <Link to={"/events/grammar-Books"}><h2>Grammar Books</h2></Link>
               <h3>
                 Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas
                 erat dignissim sed quis.
@@ -27,10 +28,10 @@ const Events = () => {
             </div>
 
             <div className="event-box-3">
-              <img
+              <Link to={"/events/grammar-Books"}><img
                 src={process.env.PUBLIC_URL + '/images/child-16.jpg'}
                 alt=""
-              />
+              /></Link>
             </div>
           </div>
           <div className="straight-height"></div>
@@ -41,7 +42,7 @@ const Events = () => {
             </div>
             <div className="event-box-2">
               <h4>MAY 14, 2030 @ 8:00 AM - 5:00 PM</h4>
-              <h2>Water Properties</h2>
+              <Link><h2>Water Properties</h2></Link>
               <h3>
                 Vivamus volutpat eros pulvinar velit laoreet, sit amet egestas
                 erat dignissim sed quis.
