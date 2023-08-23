@@ -1,0 +1,264 @@
+.child{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 0rem;
+}
+.student-image{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-image-1{
+    width: 65%;
+    height: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.child-image-2{
+    width: 35%;
+    height: 35vw;
+    position: relative;
+    background-image: url(../../../public//images/women-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.child-image-1 img{
+    height: 100%;
+    width:100%;
+}
+
+.child-image-2 img{
+    height: 100%;
+    width:100%;
+}
+
+.child-image-3{
+    width: 100%;
+    height: 35vw;
+    background-color:#262729;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.child-image-3 h1{
+    font-size: 28px;
+    color: white;
+}
+
+.child-bio{
+    width: 78%;
+    height: 5vw;
+   padding: 0rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.child-bio h2{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.child-bio p{
+    font-size: 12px;
+   
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media (max-width:700px){
+    .student-image{
+        flex-direction: column;
+    }
+    .child-image-1{
+        width: 85%;
+        height: auto;
+    }
+    .child-image-2{
+        width: 95%;
+        height: auto;
+    }
+    .child-bio{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width:700px){
+    .child-bio h2{
+        font-size: 6px;
+    }
+    .child-bio p{
+        font-size: 8px;
+    }
+}
+
+/* 2nd section  */
+
+.blogDetails-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left-blogDetails-page{
+    width: 90%;
+    height: auto;
+   
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.left-blogDetails-page h1{
+    font-size: 22px;
+    font-weight: 800;
+    color: rgb(49, 46, 46);
+}
+
+.left-blogDetails-page p{
+    font-size: 15px;
+    margin: 1rem 0rem;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgb(90, 82, 82);
+}
+
+.left-blogDetails-page h3{
+    font-size: 15px;
+    margin: 1rem 0rem;
+    font-weight: 500;
+    line-height: 25px;
+    color: rgb(90, 82, 82);
+}
+
+
+.inside-blogDetail{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blogDetail-one{
+    width: 48%;
+    height: 20vw;
+    margin-top: 1rem;
+   
+    position: relative;
+}
+
+.blogDetail-one img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogDetail-one h2{
+    font-size: 18px;
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.another-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.inside-another-div{
+    width: 45%;
+    height: 10vw;
+   
+    display: flex;
+    margin-top: 1rem;
+}
+
+.inside-another-div img{
+    width: 25%;
+    height: 100%;
+}
+
+.inside-another-div-heading h4{
+    font-size: 18px;
+    margin-left: 1rem;
+    font-weight: 800;
+    color: #494a4d;
+
+}
+
+.inside-another-div-heading h5{
+    font-size: 15px;
+    margin-top: 1rem;
+   margin-left: 1rem;
+    font-weight: 500;
+    color: #494a4d;
+
+}
+
+@media (max-width:980px){
+    .inside-blogDetail{
+        flex-direction: column;
+    }
+    .blogDetail-one{
+        width: 100%;
+        height: auto;
+        max-height: 50%;
+        object-fit: cover;
+    }
+    .another-div{
+        flex-direction: column;
+    }
+    .inside-another-div{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    .inside-another-div img{
+        width: 30%;
+        margin-left: 1rem;
+    }
+    .inside-another-div-heading h4{
+        margin-top: 1rem;
+        font-size: 20px;
+        
+    }
+    .inside-another-div-heading h5{
+       
+        font-size: 20px;
+    }
+}
+
+/* .right-blogDetails-page{
+    width: 25%;
+    height: 50vw;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+} */

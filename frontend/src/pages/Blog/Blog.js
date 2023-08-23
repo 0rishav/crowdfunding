@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./blog.css";
 import { motion } from "framer-motion";
+import {Link} from "react-router-dom"
 
 const Blog = () => {
   const [animateSupport, setAnimateSupport] = useState(false);
@@ -37,7 +38,7 @@ const Blog = () => {
               Phasellus enim libero, blandit vel sapien vitae, condimentum
               ultricies magna et. Quisque euismod orci utet.
             </p>
-            <button style={{ backgroundColor: "#EFC94C" }}>Read more</button>
+           <Link to={"/blog/detail-page"}><button style={{ backgroundColor: "#EFC94C" }}>Read more</button></Link>
           </motion.div>
           <motion.div className="blog-card" initial={{ y: 100}} 
           animate={{ y: animateSupport ? 0 : 100 }}
@@ -50,7 +51,7 @@ const Blog = () => {
               Phasellus enim libero, blandit vel sapien vitae, condimentum
               ultricies magna et. Quisque euismod orci utet.
             </p>
-            <button style={{ backgroundColor: "#00d084" }}>Read more</button>
+           <Link to={"/blog/detail-page"}><button style={{ backgroundColor: "#00d084" }}>Read more</button></Link>
           </motion.div>
           <motion.div className="blog-card" initial={{ y: 100}} 
           animate={{ y: animateSupport ? 0 : 100 }}
@@ -63,7 +64,7 @@ const Blog = () => {
               Phasellus enim libero, blandit vel sapien vitae, condimentum
               ultricies magna et. Quisque euismod orci utet.
             </p>
-            <button style={{ backgroundColor: "#ff6900" }}>Read more</button>
+            <Link to={"/blog/detail-page"}><button style={{ backgroundColor: "#ff6900" }}>Read more</button></Link>
           </motion.div>
           <motion.div className="blog-card" initial={{ y: 100}} 
           animate={{ y: animateSupport ? 0 : 100 }}
@@ -76,7 +77,7 @@ const Blog = () => {
               Phasellus enim libero, blandit vel sapien vitae, condimentum
               ultricies magna et. Quisque euismod orci utet.
             </p>
-            <button style={{ backgroundColor: "#0693e3" }}>Read more</button>
+           <Link to={"/blog/detail-page"}><button style={{ backgroundColor: "#0693e3" }}>Read more</button></Link>
           </motion.div>
         </div>
         <div className="content-blog">
@@ -89,7 +90,7 @@ const Blog = () => {
             </div>
             <div className="blog-details-heading">
               <h3>New Services</h3>
-              <button style={{ backgroundColor: "#0693e3" }}>Read More</button>
+              <Link to={"/blog/detail-page"}><button style={{ backgroundColor: "#0693e3" }}>Read More</button></Link>
             </div>
           </div>
           <div className="content-blog-details">
@@ -101,7 +102,7 @@ const Blog = () => {
             </div>
             <div className="blog-details-heading">
               <h3>Our Reviews</h3>
-              <button style={{ backgroundColor: "#ff6900" }}>Read More</button>
+              <Link to={"/blog/detail-page"}><button style={{ backgroundColor: "#ff6900" }}>Read More</button></Link>
             </div>
           </div>
           <div className="content-blog-details">
@@ -113,7 +114,7 @@ const Blog = () => {
             </div>
             <div className="blog-details-heading">
               <h3>Latest Event</h3>
-              <button style={{ backgroundColor: "#00d084" }}>Read More</button>
+              <Link to={"/blog/detail-page"}><button style={{ backgroundColor: "#00d084" }}>Read More</button></Link>
             </div>
           </div>
           <div className="content-blog-details">
@@ -125,7 +126,7 @@ const Blog = () => {
             </div>
             <div className="blog-details-heading">
               <h3>New Website</h3>
-              <button style={{ backgroundColor: "#EFC94C" }}>Read More</button>
+              <Link to={"/blog/detail-page"}><button style={{ backgroundColor: "#EFC94C" }}>Read More</button></Link>
             </div>
           </div>
         </div>

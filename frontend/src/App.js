@@ -16,6 +16,7 @@ import Gallery from "./pages/Page/gallery/Gallery";
 import Price from "./pages/Page/price/Price";
 import Features from "./pages/causes/featured/Features";
 import Services from "./pages/Page/services/Services";
+import BlogDetails from "./pages/Blog/BlogDetails";
 
 const App = () => {
   return (
@@ -37,6 +38,7 @@ const App = () => {
             <Route path="/pages/prices" element={<Price />} />
             <Route path="/pages/services" element={<Services />} />
             <Route path="/cause/features" element={<Features />} />
+            <Route path="/blog/detail-page" element={<BlogDetails />} />
           </Route>
         </Routes>
       </BrowserRouter>
