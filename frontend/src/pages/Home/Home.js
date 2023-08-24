@@ -385,7 +385,7 @@ const Home = () => {
         <div className="products-page">
           <div className="product-detail"> 
             <img
-              src={process.env.PUBLIC_URL + '/images/child-5.jpg'}
+              src={process.env.PUBLIC_URL + '/images/child-5.jpg'} 
               alt=""
             />
             <div className="product-heading">

@@ -719,6 +719,9 @@
 }
 
 @media (max-width:500px){
+  .left-support-us{
+    width: 95%;
+  }
   .btn-two button{
     padding: 0.5rem 4rem;
   }
@@ -910,7 +913,7 @@
 
   .product-heading h2 {
       font-size: 18px;
-      left: 20%;
+      /* left: 20%; */
       top: 85%;
   }
 
