@@ -62,12 +62,16 @@
   width: 60%;
   height: auto;
   margin: 2rem 0rem;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 .give-btn button {
   padding: 8px 20px;
   background-color: #efc94c;
-  margin-left: 1.5rem;
+  /* margin-left: 1.5rem; */
   color: white;
   font-weight: 700;
   border-radius: 20px;
@@ -207,6 +211,16 @@
   .give-left-input input {
     width: 80%;
     height: 44px;
+  }
+}
+
+@media (max-width:500px){
+
+  .give-btn{
+    flex-direction: column;
+  }
+  .give-btn button{
+    width: 80%;
   }
 }
 

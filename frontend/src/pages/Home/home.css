@@ -868,7 +868,7 @@
 .product-heading h2{
   position: absolute;
   top: 90%;
-  right: 25%;
+  
   text-align: center;
   align-items: center;
   font-size: 20px;
@@ -945,7 +945,7 @@
 
   .product-heading h2 {
       font-size: 16px;
-      left: 10%;
+     
       top: 80%;
   }
 

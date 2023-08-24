@@ -25,7 +25,7 @@ const Give = () => {
               <FaCcStripe />
             </div>
             <div className="give-btn">
-              <button>Order now</button>
+              <button>Order now</button> 
               <button>Read more</button>
             </div>
           </div>
