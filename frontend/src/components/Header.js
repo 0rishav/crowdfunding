@@ -54,21 +54,7 @@ const closeNav = () => {
                     <Link to={"/cause/features"}>Features</Link>
                   </li>
                   <hr />
-                  <li>
-                    <Link to={"/cause/documents"}>Documents</Link>
-                  </li>
-                  <hr />
-                  <li>
-                    <Link to={"/cause/donate-now"}>Donate now</Link>
-                  </li>
-                  <hr />
-                  <li>
-                    <Link>Comments</Link>
-                  </li>
-                  <hr />
-                  <li>
-                    <Link>Maps</Link>
-                  </li>
+                 
                 </ul>
               </li>
               <li>

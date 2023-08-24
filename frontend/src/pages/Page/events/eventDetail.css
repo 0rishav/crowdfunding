@@ -86,21 +86,20 @@
 .details h2{
     font-size: 18px;
     font-weight: 500;
-   margin-top: 1rem;
+    margin-top: 1rem;
     color: rgb(51, 47, 47);
 }
 
 .details p{
     font-size: 16px;
     font-weight: 400;
-   margin-top: 1rem;
+    margin-top: 1rem;
     color: rgb(107, 96, 96);
 }
 
 .organizer{
     width: 40%;
     height: auto;
-    
     margin-bottom: 30px;
 }
 

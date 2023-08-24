@@ -383,7 +383,7 @@ const Home = () => {
         <p>Aid Contribution</p>
         <h1>Buy Your Products</h1>
         <div className="products-page">
-          <div className="product-detail">
+          <div className="product-detail"> 
             <img
               src={process.env.PUBLIC_URL + '/images/child-5.jpg'}
               alt=""

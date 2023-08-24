@@ -868,7 +868,9 @@
 .product-heading h2{
   position: absolute;
   top: 90%;
-  right: 10%;
+  right: 25%;
+  text-align: center;
+  align-items: center;
   font-size: 20px;
   font-weight: 800;
   color: rgb(170, 16, 16);

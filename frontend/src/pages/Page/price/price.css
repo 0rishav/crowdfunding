@@ -1,140 +1,362 @@
-.main-box-price{
+.image-box-price{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
-.left-price-boxes {
+.main-box-price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.left-box-price{
+ 
   width: 35%;
   height: auto;
-  border: 2px solid rgb(14, 13, 13);
+  margin: 2rem 0rem;
+}
+
+.left-box-price h1{
+  font-size:60px;
+  font-weight: 700;
+  color: rgb(85, 75, 75);
+  margin-bottom: 20px;
+}
+
+.left-box-price p{
+  font-size: 18px;
+  color:rgb(134, 129, 129) ;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.left-box-price button{
+    background-color: #EFC94C;
+    padding: 6px 20px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 20px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.right-box-price{
+  gap: 2px;
+  width: 55%;
+  height: auto;
+  margin: 2rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-left-box{
+  width:50%;
+  height: 45vw;
+  border: 1px solid black;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.right-left-top-box{
+  width: 100%;
+  height: 50%;
+
+  background-image: url(../../../../public/images/women-7.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  
+}
+
+.right-left-top-box-content{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
-  /* align-items: center; */
+  align-items: center;
+  
+  background-color: #EF884C;
+  opacity: 0.8;
 }
 
-.left-price-boxes h1{
-    font-size: 42px;
-    font-weight: 800;
-    color: rgb(122, 116, 116);
+.right-left-top-box-content h1{
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+
 }
 
-.left-price-boxes p{
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 25px;
-    color: rgb(99, 88, 88);
-    margin-top: 1rem;
+.right-left-top-box-content p{
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+
 }
 
-.left-price-boxes button{
-    font-size: 12px;
-    color: white;
-    text-transform: uppercase;
-    font-weight: 800;
-    background-color:#EFC94C;
-    margin-top: 1rem;
-    width: 25%;
-    height: 35px;
-    border-radius: 20px;
-   
+.right-left-top-box-content h2{
+  font-size: 10px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.right-price-box {
-    width: 55%;
-    height: 40vw;
-    border: 2px solid rgb(14, 13, 13);
-    display: flex;
-    
-    margin-bottom: 3rem;
-    align-items: center;
-  }
+.right-left-bottom-box{
+  width: 100%;
+  height: 50%;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .left-price-plan{
-    width: 50%;
-    height: 40vw;
-    border:2px solid black;
-    
-  }
+.right-left-bottom-box p{
+  font-size: 18px;
+  color: rgb(85, 75, 75);
+  padding: 0rem 2rem;
+  margin-bottom: 30px;
+  justify-content: center;
+}
 
-  .left-top-price-plan{
-    height: 45%;
-    width: 100%;
-    background-color: #ff3300;
-    opacity: 0.5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.right-left-bottom-box button{
+  background-color: #EF884C;
+  padding: 6px 20px;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+}
 
-  .left-top-price-plan h2{
-    font-size: 22px;
-    color: white;
-    font-weight: 700;
-    margin-bottom: 10px;
-  }
+.right-right-box{
+  width:50%;
+  height: 45vw;
+  border: 1px solid black;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
 
-  .left-top-price-plan h3{
-    font-size: 30px;
-    color: white;
-    font-weight: 800;
-    margin-bottom: 10px;
-  }
 
-  .left-top-price-plan h5{
-    color: white;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 10px;
-    margin-bottom: 10px;
-  }
+.right-right-top-box{
+  width: 100%;
+  height: 50%;
+  
+  background-image: url(../../../../public/images/women-8.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: cover;
+  
+}
 
-  .left-bottom-price-plan{
-    height: 55%;
-    width: 100%;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .left-bottom-price-plan p{
-    line-height: 35px;
-    padding: 0rem 2rem;
-  }
-  .left-bottom-price-plan button{
-    color: white;
-    text-transform: uppercase;
-    font-size: 13px;
-    font-weight: 700;
-    padding: 6px 20px;
-    background-color: #ff3300;
-    margin-top: 1rem;
-   
-    border-radius: 20px;
-    outline: none;
-  }
-  .right-price-plan{
-    width: 50%;
-    height: 43vw;
-    border:2px solid black;
-    
-  }
+.right-right-top-box-content{
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  background-color: #444444;
+  opacity: 0.8;
+}
 
-  @media (max-width:1020px){
-    .main-box-price{
+.right-right-top-box-content h1{
+  font-size: 25px;
+  color: white;
+  font-weight: 700;
+
+}
+
+.right-right-top-box-content p{
+  font-size: 35px;
+  color: white;
+  font-weight: 700;
+
+}
+
+.right-right-top-box-content h2{
+  font-size: 10px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.right-right-bottom-box{
+  width: 100%;
+  height: auto;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-right-bottom-box p{
+  font-size: 18px;
+  color: rgb(85, 75, 75);
+  padding: 0rem 2rem;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.right-right-bottom-box button{
+  background-color: #444444;
+  padding: 6px 20px;
+  border-radius: 20px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+}
+
+@media (max-width:1120px){
+      .main-box-price{
         flex-direction: column;
-    }
-    .left-price-boxes{
-        width: 95%;
-    }
-    .right-price-box{
-        width: 95%;
-        height: 50vw;
+      }
+      .left-box-price{
+        width: 90%;
+      }
+      .right-box-price{
+        width: 90%;
         
-    }
+      }
+}
+
+@media (max-width: 700px) {
+  .left-box-price{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
+  .right-box-price {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    align-items: center;
+  }
+  .right-left-box,
+  .right-right-box {
+    width: 100%;
+    height: auto;
+   margin-bottom: 30px;
+  }
+  .right-left-top-box,
+  .right-right-top-box {
+    height: 70%;
+  }
+  .right-left-bottom-box,
+  .right-right-bottom-box {
+    height: auto
+  }
+  .right-left-bottom-box p,
+  .right-right-bottom-box p{
+    margin-top: 1rem;
+  }
+  .right-left-bottom-box button,
+  .right-right-bottom-box button{
+    margin-bottom: 15px;
+  }
+}
+
+/* 2nd content  */
+
+.facility{
+ display: flex;
+  margin: 1rem 0;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.background-image-facility{
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+  width: 100%;
+  height: auto;
+  background-image: url(../../../../public/images/background-image.jpg);
+  padding: 2rem 0rem;
+}
+
+.background-image-facility h2{
+  text-align: center;
+  align-items: center;
+  margin-top: 5rem;
+  color: white;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 4px;
+}
+
+.background-image-facility h1{
+  text-align: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: white;
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.facility-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.facility-content{
+  height: 25vw;
+  width: 30%;
+ 
+}
+
+.facility-content h3{
+  font-size: 70px;
+  margin-left: 2rem;
+  font-weight: 500;
+  color: #a59393;
+  opacity: 0.2;
+}
+
+.facility-content h4{
+  font-size: 30px;
+  margin-left: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 1rem;
+  
+}
+
+.icon-cover{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  color: white;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.facility-content img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width:1100px){
+  .facility-content{
+    width: 90%;
+    height: auto;
+   
+  }
+}
+
+

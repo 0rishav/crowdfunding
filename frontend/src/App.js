@@ -18,6 +18,7 @@ import Features from "./pages/causes/featured/Features";
 import Services from "./pages/Page/services/Services";
 import BlogDetails from "./pages/Blog/BlogDetails";
 import EventDetail from "./pages/Page/events/EventDetail";
+import FaqPage from "./pages/Page/FAQ/FaqPage";
 
 const App = () => {
   return (
@@ -38,6 +39,7 @@ const App = () => {
             <Route path="/pages/gallery" element={<Gallery />} />
             <Route path="/pages/prices" element={<Price />} />
             <Route path="/pages/services" element={<Services />} />
+            <Route path="/pages/FAQ" element={<FaqPage />} />
             <Route path="/cause/features" element={<Features />} />
             <Route path="/blog/detail-page" element={<BlogDetails />} />
             <Route path="/events/grammar-books" element={<EventDetail />} />
