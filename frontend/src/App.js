@@ -19,6 +19,7 @@ import Services from "./pages/Page/services/Services";
 import BlogDetails from "./pages/Blog/BlogDetails";
 import EventDetail from "./pages/Page/events/EventDetail";
 import FaqPage from "./pages/Page/FAQ/FaqPage";
+import ForgotPassword from "./pages/forgotpassword/ForgotPassword";
 
 const App = () => {
   return (
@@ -34,7 +35,8 @@ const App = () => {
             <Route path="/shop" element={<Shop />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/signup" element={<Signup />} />
+            <Route path="/signup" element={<Signup/>} />
+            <Route path="/forgot-password" element={<ForgotPassword/>} />
             <Route path="/pages/events" element={<Events />} />
             <Route path="/pages/gallery" element={<Gallery />} />
             <Route path="/pages/prices" element={<Price />} />

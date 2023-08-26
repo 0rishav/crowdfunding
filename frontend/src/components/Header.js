@@ -4,11 +4,20 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import { BiUserCircle } from "react-icons/bi";
 import {motion} from "framer-motion"
+import { useAuth } from "../pages/context/auth";
+import { toast } from "react-toastify";
+import axios from "axios";
+
+
 
 const Header = () => {
   
+  const [auth, setAuth] = useAuth();
   const [isSubMenu, setIsSubMenu] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
+
+  
+
 
   const subMenuToggle = (event) => {
     event.stopPropagation();
@@ -16,12 +25,33 @@ const Header = () => {
   }
 
   const toggleNav = () => {
-    console.log("click")
+   
     setNavOpen(!navOpen);
 }  
 
 const closeNav = () => {
   setNavOpen(false); 
+}
+
+const handleLogout = async () => {
+  try {
+   
+    await axios.get("http://localhost:8000/api/v1/user/logout", {
+      withCredentials: true,
+    });
+
+    
+    setAuth({
+      ...auth,
+      user: null,
+      token: "",
+    });
+    localStorage.removeItem("auth");
+    toast.success("Logout Successfully");
+  } catch (error) {
+    console.log(error);
+    toast.error("Logout Failed");
+  }
 }
   return (
     <>
@@ -107,6 +137,9 @@ const closeNav = () => {
               </li>
               <li>
                 <Link to={"/contact"}>CONTACT</Link>
+              </li>
+              <li>
+                <Link to={"/login"} onClick={handleLogout}>Logout</Link>
               </li>
               <li>
                 <Link to={"/signup"}>
